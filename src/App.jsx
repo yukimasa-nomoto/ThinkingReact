@@ -1,12 +1,8 @@
 export default function App() {
     return (
-        <>
-            <h1>Check the console</h1>
-            <p>
-                This example shows how to use the cleanup function of useEffect to
-                cancel a timer when the component is unmounted or when the effect
-                dependencies change.
-            </p>
-        </>
+        <div>
+            <h1>Welcome to the React App</h1>
+            <p>This is a simple application to demonstrate React features.</p>
+        </div>
     );
 }
